@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pages>
+
+  <IntroPage>
+    <introPageTitle>
+      <id>introPageTitle</id>
+    </introPageTitle>
+    <introPageSubtitle>
+      <id>introPageSubTitle</id>
+    </introPageSubtitle>
+    <getStartedButton>
+      <id>btCta</id>
+    </getStartedButton>
+    <securePolicyButton>
+      <id>securePolicyTextView</id>
+    </securePolicyButton>
+  </IntroPage>
+
+  <LoginPage>
+    <enterYourMobileNumberTitle>
+      <id>tvTitle</id>
+    </enterYourMobileNumberTitle>
+    <typeMobileNumber>
+      <id>loginMobile</id>
+    </typeMobileNumber>
+    <mobileNumberCountryCode>
+      <id>countryCodeText</id>
+    </mobileNumberCountryCode>
+    <continueButton>
+      <id>loginContinue</id>
+    </continueButton>
+    <registerSebiLabel>
+      <AndroidUIAutomator>new UiSelector().resourceIdMatches(".*id/labelRegistered")</AndroidUIAutomator>
+    </registerSebiLabel>
+    <authorisedAgencyLogoIcon_loan>
+      <id>ivLoans</id>
+    </authorisedAgencyLogoIcon_loan>
+    <authorisedAgencyLogoIcon_bse>
+      <id>ivCard</id>
+    </authorisedAgencyLogoIcon_bse>
+    <authorisedAgencyLogoIcon_credit>
+      <id>ivCredit</id>
+    </authorisedAgencyLogoIcon_credit>
+    <loginTermsAndCondition>
+      <id>loginTermsText</id>
+    </loginTermsAndCondition>
+    <otpSendMessageText>
+      <id>loginOtpSentMessage</id>
+    </otpSendMessageText>
+    <enterOtp>
+      <id>loginOtpField</id>
+    </enterOtp>
+    <otpWaitingMessage>
+      <id>otpWaitingMessage</id>
+    </otpWaitingMessage>
+    <otpDidntReceiveText>
+      <id>zLoginDidntReceive</id>
+    </otpDidntReceiveText>
+    <otpCallMeButton>
+      <id>callMeResendButton</id>
+    </otpCallMeButton>
+    <resendOtp_disable_enable>
+      <xpath>//android.widget.Button[contains(@resource-id,"loginOtpResendButton") and @enabled="{0}"]</xpath>  <!--it could be false-disable,true-enable-->
+    </resendOtp_disable_enable>
+    <loginOtpContinue>
+      <id>loginOtpContinue</id>
+    </loginOtpContinue>
+
+
+
+  </LoginPage>
+
+  <XstreamPage>
+    <RegisteredScreen_CloseIcon>
+      <AndroidUIAutomator>new UiSelector().description("closeDialog")</AndroidUIAutomator>
+    </RegisteredScreen_CloseIcon>
+    <RegisterScreen_LogoIcon>
+      <id>logoImage</id>
+    </RegisterScreen_LogoIcon>
+    <TopTile_PageOptions>
+      <id>tv_top_tab_text</id>
+    </TopTile_PageOptions>
+    <AllRowHeaderText>
+      <id>row_header_title_text_view</id>
+    </AllRowHeaderText>
+    <AnyVideoCP_Content>
+      <xpath>(//android.view.ViewGroup[contains(@resource-id,"poster_view") and (not(contains(@content-desc,"banner")))]//android.widget.FrameLayout[contains(@resource-id,"iv_content")]/following-sibling::android.widget.FrameLayout[contains(@resource-id,"logoContainer") and (string-length(@content-desc) > 3)])[2]</xpath>
+    </AnyVideoCP_Content>
+    <RegisterScreen_HeaderText>
+      <id>headerD</id>
+    </RegisterScreen_HeaderText>
+    <RegisterScreen_DescriptionText>
+    <id>description</id>
+  </RegisterScreen_DescriptionText>
+    <RegisterScreen_RegisterBT>
+      <id>actionBtnD</id>
+    </RegisterScreen_RegisterBT>
+    <PlayVideo>
+      <id>play_icon</id>
+    </PlayVideo>
+    <TopTile_PageParentView>
+      <id>tabLayout</id>
+    </TopTile_PageParentView>
+    <TopTile_Page_selectWithName>
+      <xpath>//android.widget.TextView[contains(@resource-id,"tv_top_tab_text") and contains(@text,"{0}")]</xpath>
+    </TopTile_Page_selectWithName>
+    <TopTile_ActivePage>
+      <xpath>//android.widget.TextView[contains(@resource-id,"tv_top_tab_text") and @selected="true"]</xpath>
+    </TopTile_ActivePage>
+    <ProgramsNameOnTV>
+      <id>show_name_text_view</id>
+    </ProgramsNameOnTV>
+
+  </XstreamPage>
+
+
+</Pages>

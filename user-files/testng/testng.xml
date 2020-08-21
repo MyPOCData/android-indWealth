@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" configfailurepolicy="continue" data-provider-thread-count="2">
+  <test name="ANDROID" group-by-instances="true">
+    <parameter name="browser" value="ANDROID"/>
+    <classes>
+      <class name="ui.app.testng.AppTestNgSuite"/>
+      <class name="in.runner.Runner"/>
+    </classes>
+  </test> <!-- ANDROID -->
+</suite> <!-- Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ENV>
+  <STAGING>
+    <data></data>
+  </STAGING>
+  <PROD>
+    <data></data>
+  </PROD>
+  <PREPROD>
+    <data></data>
+  </PREPROD>
+</ENV>

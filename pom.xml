@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com</groupId>
+  <artifactId>android_indWealth</artifactId>
+  <version>0.0.1</version>
+  <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  <appium.version>7.3.0</appium.version>
+  <testng.version>7.1.0</testng.version>
+  <cucumber.version>4.4.0</cucumber.version>
+  <rest-assured.version>4.3.0</rest-assured.version>
+  <webdrivermanager.version>4.0.0</webdrivermanager.version>
+  <lombok.version>1.18.12</lombok.version>
+  <assertj-core.version>3.16.1</assertj-core.version>
+  <org.json.version>20200518</org.json.version>
+  <commons-lang3.version>3.10</commons-lang3.version>
+  <fillo.version>1.21</fillo.version>
+  <allure-testng.version>2.13.0</allure-testng.version>
+  <allure-maven.version>2.9</allure-maven.version>
+  <aws.version>1.11.106</aws.version>
+  <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+  <repository-id>android_indWealth</repository-id>
+  <!--    <repository-url>http://nexus.xyz.com/nexus/content/repositories/automation-framework/</repository-url>-->
+  </properties>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.test</groupId>
+      <artifactId>automation-framework</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-picocontainer</artifactId>
+      <version>${cucumber.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-testng</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>${cucumber.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>13.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
+
