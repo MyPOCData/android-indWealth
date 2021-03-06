@@ -8,7 +8,7 @@ import ui.app.testng.AppTesNgMethods;
 
 @CucumberOptions(plugin = {"json:target/cucumber-report/cucumber-report-feature-composite.json",
     "pretty", "rerun:target/rerun.txt"}, features = {"user-files/feature-files"}, glue = {
-    "in/steps"}, tags = {"@xstream", "~@wip"}, monochrome = true, strict = true)
+    "in/steps"}, tags = {"@P0", "~@wip"}, monochrome = true, strict = true)
 public class Runner extends AppTesNgMethods {
 
   @Test(dataProvider = "scenarios",timeOut = 15*60*000)

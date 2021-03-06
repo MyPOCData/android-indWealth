@@ -4,6 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import in.pages.IntroPage;
 
+
 public class IntroPageSteps {
 
   IntroPage introPage = null;
@@ -13,6 +14,7 @@ public class IntroPageSteps {
 
   @When("^verify intro page$")
   public void verify_intro_page() throws Exception {
+	  System.out.println("tab******");
    introPage.verifyIntroPage();
   }
 
@@ -21,4 +23,5 @@ public class IntroPageSteps {
   public void clickOnGetStartedButton() throws Exception {
     introPage.clickOnGetStartedButton();
   }
+
 }

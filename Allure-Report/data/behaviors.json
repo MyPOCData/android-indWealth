@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "runScenarios",
+    "uid" : "f9f02efb7d78e740",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614668378447,
+      "stop" : 1614668391124,
+      "duration" : 12677
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"launch the app and proceed to login page || noReset=true\"", "\"Launch App\"", "P0", "launch the app and proceed to login page", "noReset=true", "ANDROID" ]
+  }, {
+    "name" : "runScenarios",
+    "uid" : "781f633a53e34ae5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1614668426108,
+      "stop" : 1614668432347,
+      "duration" : 6239
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "\"registration on App || noReset=false\"", "\"Login\"", "P0", "registration on App", "noReset=false", "ANDROID" ]
+  } ]
+}

@@ -11,13 +11,13 @@ public class IntroPage extends CommonPage {
   }
 
   public void verifyIntroPage() throws Exception {
-    elementPath = "IntroPage/introPageTitle";
+    elementPath = "HomePage/PageTabs";
     getText(elementPath);
-    elementPath = "IntroPage/introPageSubtitle";
-    verifyText("Make Money From","contains",elementPath);
-    elementPath = "IntroPage/securePolicyButton";
-    verifyPresenceOfElement(elementPath);
-    clickOnGetStartedButton();
+//    elementPath = "IntroPage/introPageSubtitle";
+    verifyText("Featured","contains",elementPath);
+//    elementPath = "IntroPage/securePolicyButton";
+//    verifyPresenceOfElement(elementPath);
+//    clickOnGetStartedButton();
   }
 
   public void clickOnGetStartedButton() throws Exception {

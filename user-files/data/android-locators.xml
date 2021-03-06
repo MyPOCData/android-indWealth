@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pages>
 
-  <IntroPage>
-    <introPageTitle>
-      <id>introPageTitle</id>
-    </introPageTitle>
+  <HomePage>
+    <PageTabs>
+      <xpath>//android.widget.TextView[contains(@resource-id,"tv_top_tab_text") and contains(@text,"Featured")]</xpath>
+    </PageTabs>
     <introPageSubtitle>
       <id>introPageSubTitle</id>
     </introPageSubtitle>
@@ -14,7 +14,22 @@
     <securePolicyButton>
       <id>securePolicyTextView</id>
     </securePolicyButton>
-  </IntroPage>
+  </HomePage>
+  
+  <RegistrationPpper>
+  	<RegButton>
+  		<id>actionBtnD</id>
+  	</RegButton>
+  	<Header>
+  		<id>headerD</id>
+  	</Header>
+  	<EnterMobNumber>
+  		<id>edit_phone_number</id>
+  	</EnterMobNumber>
+  	<ContinueButton>
+  		<id>btn_next</id>
+  	</ContinueButton>
+  </RegistrationPpper>
 
   <LoginPage>
     <enterYourMobileNumberTitle>

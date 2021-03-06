@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
-  <orgName>IndWealth</orgName>
-  <projectType>android</projectType>  <!--android,ios,web,backend-->
-  <environment>prod</environment>   <!-- prod,preprod,staging -->
-  <driverType>android</driverType>  <!-- android,ios,chrome,firefox,backend -->
-  <networkType>data</networkType>  <!--wifi,data-->
-<!--  <appName>IndWealth-Android</appName>-->
-<!--  <appPackage>in.indwealth</appPackage>-->
-<!--  <appActivity>com.indwealth.android.ui.splash.SplashActivity</appActivity>-->
-<!--  <appMainActivity>com.indwealth.android.ui.splash.SplashActivity</appMainActivity>-->
-<!--  <appVersion>2.2.2</appVersion>-->
-<!--  <appBuildVersion>222</appBuildVersion>-->
-  <appName>xstream-Android</appName>
-  <appPackage>tv.accedo.airtel.wynk.debug</appPackage>
-  <appActivity>tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity</appActivity>
-  <appVersion>1.31.0</appVersion>
-  <appBuildVersion>3000</appBuildVersion>
-  <appiumNewCommandTimeOut>10</appiumNewCommandTimeOut>  <!--minute-->
-  <explicitWait>20</explicitWait>  <!--seconds-->
-  <pollingWait>200</pollingWait>  <!--milliSeconds-->
-  <appiumServerUrl>127.0.0.1</appiumServerUrl>
-  <videoGifIntegration>true</videoGifIntegration>
-  <passPercentage>75</passPercentage>
-  <emailNotification>false</emailNotification>
+	<orgName>AbhinavOrg</orgName>
+	<projectType>android</projectType>  <!--android,ios,web,backend -->
+	<androidHme>/Users/b0097042/Library/Android/sdk</androidHme>
+	<javaHome>/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home</javaHome>
+	<environment>prod</environment>   <!-- prod,preprod,staging -->
+	<driverType>android</driverType>  <!-- android,ios,chrome,firefox,backend -->
+	<networkType>wifi</networkType>  <!--wifi,data -->
+	<appName>xstream-Android</appName>
+	<appLocation>/user-files/apps/AirtelXstream-1.39.0-12693.apk</appLocation>
+	<appPackage>tv.accedo.airtel.wynk.debug</appPackage>
+	<appActivity>tv.accedo.airtel.wynk.presentation.view.activity.SplashActivity</appActivity>
+	<appVersion>1.33.0</appVersion>
+	<appBuildVersion>12659</appBuildVersion>
+	<appiumNewCommandTimeOut>10</appiumNewCommandTimeOut>  <!--minute -->
+	<explicitWait>20</explicitWait>  <!--seconds -->
+	<pollingWait>200</pollingWait>  <!--milliSeconds -->
+	<appiumServerUrl>127.0.0.1</appiumServerUrl>
+	<videoGifIntegration>true</videoGifIntegration>
+	<passPercentage>75</passPercentage>
 
-  <defaultSeverity>P2</defaultSeverity>
-  <jenkinsIp></jenkinsIp>
+	<emailNotification>true</emailNotification>
+	<sendEmailUserName>testing.bsb@gmail.com</sendEmailUserName>
+	<sendEmailPassword>Wynk@012</sendEmailPassword>
+	<subject>App-Automation-Report</subject>
+	<to>abhinavagarwal9@gmail.com;abhinav.agarwal1981@gmail.com</to>
+	<cc></cc>
+	<bcc></bcc>
+
+	<defaultSeverity>P2</defaultSeverity>
+	<jenkinsIp></jenkinsIp>
 </configuration>

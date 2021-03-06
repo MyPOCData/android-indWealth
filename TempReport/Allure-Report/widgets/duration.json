@@ -1,0 +1,21 @@
+[ {
+  "uid" : "f9f02efb7d78e740",
+  "name" : "runScenarios",
+  "time" : {
+    "start" : 1614668378447,
+    "stop" : 1614668391124,
+    "duration" : 12677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "781f633a53e34ae5",
+  "name" : "runScenarios",
+  "time" : {
+    "start" : 1614668426108,
+    "stop" : 1614668432347,
+    "duration" : 6239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

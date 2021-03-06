@@ -1,0 +1,163 @@
+{
+  "uid" : "781f633a53e34ae5",
+  "name" : "runScenarios",
+  "fullName" : "in.runner.Runner.runScenarios",
+  "historyId" : "ff1ddaa173fc72a82c30f7d67b3268c9",
+  "time" : {
+    "start" : 1614668426108,
+    "stop" : 1614668432347,
+    "duration" : 6239
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "initializeTest",
+    "time" : {
+      "start" : 1614668397281,
+      "stop" : 1614668421097,
+      "duration" : 23816
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDownTest",
+    "time" : {
+      "start" : 1614668432350,
+      "stop" : 1614668436611,
+      "duration" : 4261
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "in.runner.Runner"
+  }, {
+    "name" : "testClass",
+    "value" : "in.runner.Runner"
+  }, {
+    "name" : "testMethod",
+    "value" : "runScenarios"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "ANDROID"
+  }, {
+    "name" : "subSuite",
+    "value" : "in.runner.Runner"
+  }, {
+    "name" : "host",
+    "value" : "LTB0206984-Mac.local"
+  }, {
+    "name" : "thread",
+    "value" : "17249@LTB0206984-Mac.local.TestNG-PoolService-0(30)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "\"registration on App || noReset=false\""
+  }, {
+    "name" : "arg1",
+    "value" : "\"Login\""
+  }, {
+    "name" : "arg2",
+    "value" : "P0"
+  }, {
+    "name" : "arg3",
+    "value" : "registration on App"
+  }, {
+    "name" : "arg4",
+    "value" : "noReset=false"
+  }, {
+    "name" : "browser",
+    "value" : "ANDROID"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "f3e2df8de71eb87f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614664368231,
+          "stop" : 1614664375737,
+          "duration" : 7506
+        }
+      }, {
+        "uid" : "3a18138ca7ad75e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614621610552,
+          "stop" : 1614621617064,
+          "duration" : 6512
+        }
+      }, {
+        "uid" : "1e5aa8d748619354",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614620625447,
+          "stop" : 1614620631376,
+          "duration" : 5929
+        }
+      }, {
+        "uid" : "992322475ab0216a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614620172938,
+          "stop" : 1614620179847,
+          "duration" : 6909
+        }
+      }, {
+        "uid" : "b826a312e072b08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614619840775,
+          "stop" : 1614619846687,
+          "duration" : 5912
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "781f633a53e34ae5.json",
+  "parameterValues" : [ "\"registration on App || noReset=false\"", "\"Login\"", "P0", "registration on App", "noReset=false", "ANDROID" ]
+}

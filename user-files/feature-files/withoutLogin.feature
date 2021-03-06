@@ -1,7 +1,7 @@
 @xstream @withoutLogin
 Feature: Without_Login
 
-  @P0
+  @1
   Scenario Outline: verify all top bar pages for withoutLogin|| noReset=<noReset>
     Given close register popup
     Then verify all top bar pages <pages>
@@ -9,7 +9,7 @@ Feature: Without_Login
       | noReset | pages         |
       | true    | All_TOP_PAGES |
 
-  @P0
+  @P1
   Scenario Outline:get all rails for withoutLogin|| noReset=<noReset>
     Then close register popup
     Then get all screen rails

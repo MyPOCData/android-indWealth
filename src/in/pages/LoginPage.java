@@ -70,5 +70,20 @@ public class LoginPage extends CommonPage {
     sleep(60);
     click(otpContinueButton,"click on Continue Button");
   }
+  
+  public void verifyRegPopper() throws Exception {
+	  elementPath = "RegistrationPpper/Header";
+	  verifyText("Register and enjoy all benefits of Airtel Xstream", "contains", elementPath);
+	  elementPath = "RegistrationPpper/RegButton";
+	  verifyPresenceOfElement(elementPath);
+	  click(elementPath, "Click on Registreation Page");
+  }
+  
+  public void registerApp(String number) throws Exception {
+	  elementPath = "RegistrationPpper/EnterMobNumber";
+	  sendKeys(elementPath,number);
+	  elementPath = "RegistrationPpper/ContinueButton";
+	  click(elementPath, "Click on Continue button");
+  }
 
 }
